@@ -15,13 +15,13 @@ function Footer() {
               The easiest way to rent and lease cars directly from verified owners near you.
             </p>
             <div className="flex gap-4 mt-8">
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-blue-500/30 text-gray-300 hover:text-blue-300 transition duration-300 flex items-center justify-center font-bold">
+              <a href="/" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-blue-500/30 text-gray-300 hover:text-blue-300 transition duration-300 flex items-center justify-center font-bold">
                 f
               </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-blue-500/30 text-gray-300 hover:text-blue-300 transition duration-300 flex items-center justify-center font-bold">
+              <a href="/" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-blue-500/30 text-gray-300 hover:text-blue-300 transition duration-300 flex items-center justify-center font-bold">
                 𝕏
               </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-blue-500/30 text-gray-300 hover:text-blue-300 transition duration-300 flex items-center justify-center font-bold">
+              <a href="/" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-blue-500/30 text-gray-300 hover:text-blue-300 transition duration-300 flex items-center justify-center font-bold">
                 in
               </a>
             </div>
@@ -42,12 +42,12 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   ❓ How It Works
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   💰 Pricing
                 </a>
               </li>
@@ -59,22 +59,22 @@ function Footer() {
             <h3 className="text-lg font-bold mb-6 text-white">Company</h3>
             <ul className="space-y-4">
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   📖 About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   📰 Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   💼 Careers
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   📞 Contact
                 </a>
               </li>
@@ -86,22 +86,22 @@ function Footer() {
             <h3 className="text-lg font-bold mb-6 text-white">Legal</h3>
             <ul className="space-y-4">
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   🔐 Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   📋 Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   🍪 Cookie Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
+                <a href="/" className="text-gray-400 hover:text-blue-300 transition duration-300 text-base">
                   🛡️ Security
                 </a>
               </li>
