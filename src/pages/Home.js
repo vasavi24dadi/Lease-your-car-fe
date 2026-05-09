@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import API from "../api/axios";
+import API, { getImageUrl } from "../api/axios";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -128,7 +128,7 @@ function Home() {
                   <div className="relative h-48 overflow-hidden bg-gray-100">
                     {car.car_image ? (
                       <img
-                        src={`http://localhost:5000/uploads/${car.car_image}`}
+                        src={getImageUrl(car.car_image)}
                         alt={car.car_name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />

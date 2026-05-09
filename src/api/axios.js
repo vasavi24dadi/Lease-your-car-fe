@@ -1,7 +1,16 @@
 import axios from "axios";
 
+export const API_URL = process.env.REACT_APP_API_URL || "/api";
+
+export const getImageUrl = (filename) => {
+  if (!filename) return "";
+  if (filename.startsWith("http")) return filename;
+  const serverRoot = API_URL.replace(/\/api\/?$/, "");
+  return `${serverRoot}/uploads/${filename}`;
+};
+
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "/api",
+  baseURL: API_URL,
 });
 
 // attach token automatically

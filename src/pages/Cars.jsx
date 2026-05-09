@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import API from "../api/axios";
+import API, { getImageUrl } from "../api/axios";
 import Footer from "../components/Footer";
 
 function Cars() {
@@ -247,7 +247,7 @@ function Cars() {
                     <div className="relative h-56 overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
                       {car.car_image ? (
                         <img
-                          src={`http://localhost:5000/uploads/${car.car_image}`}
+                          src={getImageUrl(car.car_image)}
                           alt={car.car_name}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                         />

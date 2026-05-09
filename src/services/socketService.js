@@ -4,7 +4,8 @@ let socket = null;
 
 export const initializeSocket = (userId) => {
   if (!socket) {
-    const socketUrl = process.env.REACT_APP_API_URL || "http://localhost:5000";
+    // Use REACT_APP_API_URL from .env, default to render backend
+    const socketUrl = process.env.REACT_APP_API_URL || "https://lease-your-car-be.onrender.com";
     socket = io(socketUrl, {
       reconnection: true,
       reconnectionDelay: 1000,
